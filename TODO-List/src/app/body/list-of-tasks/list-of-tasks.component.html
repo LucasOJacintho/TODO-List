@@ -1,0 +1,13 @@
+<mat-selection-list>
+    <mat-list *ngFor="let task of list">
+        <div>
+            <mat-card>
+                <span>{{task}}</span>
+                <app-actions-list></app-actions-list>
+            </mat-card>
+        </div>
+    </mat-list>
+    <div>
+        <mat-card class="new">Adicionar Tarefa</mat-card>
+    </div>
+</mat-selection-list>
